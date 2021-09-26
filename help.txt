@@ -1,0 +1,32 @@
+
+
+cm 12.2019
+
+Katalog domowy:
+	$HOME/.cm
+
+Pliki programu:
+	$HOME/.cm/list - domyślna lista serwerów.
+	$HOME/.cm/user - domyślny użytkownik.
+
+Słownik:
+	index - liczba porządkowa na liście serwerów.
+	lista indeksów - indeksy oddzielone przecinkiem.
+	zakres mieszany - połączenie zakresu od-do z listą indeksów.
+			Lista indeksów ma wiekszy priorytet, niżzakres.
+
+Opcje programu:
+
+	-a - przetwarzanie wsadowe dla wszystkich serwerów z listy.
+		(użycie opcji -c <polecenie>, wymagane).
+	-b <zakres/lista indeksów/zakres mieszany> - przetwarzanie wsadowe.
+		(użycie opcji -c <polecenie>, wymagane).
+	-c "<polecenie>" - polecenie do zdalnego wykonania.
+	-h - wyświetlenie pomocy.
+	-i <index> - połączenie z systemem o podanym indeksie.
+	-l <ścieżka_do_listy> - użycie innej listy niż domyślna.
+	-p ssh/[sftp] - wybór protokołu, domyślnie: ssh.
+	-u <użytkownik> - użycie innego użytkownika niz domyślny.
+	-s <list/user> - wyświetla listę lub użytkownika
+
+
